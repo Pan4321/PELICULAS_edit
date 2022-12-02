@@ -31,7 +31,7 @@
               <a href="index.html" class="nav__link active-link">Home</a>
             </li>
             <li class="nav__item">
-              <a href="multimedia.html" class="nav__link">Multimedia</a>
+              <a href="#" class="nav__link">Multimedia</a>
             </li>
             <li class="nav__item">
               <a href="#" class="nav__link">Recomendados</a>
@@ -52,57 +52,132 @@
       </nav>
     </header>
     
-    <!-- #region Principal-->
-    <main class="main">
-      <!-- titulo -->
-      <section class="section category category__data">
-        <h2 class="section__title">
-          Inicio de Sesion
-        </h2>
-          
-        <!-- formulario -->
-        <div class="container category__data">
-          <div class="row d-flex justify-content-center align-items-center">
-            <div class="col-6">
-              <div class="card shadow-2-strong color_login">
-                <div class="card-body text-center p-5">
-                  <!-- correo -->
-                  <div class="form-outline mb-4">
-                    <input type="email" id="typeEmailX-2" class="form-control form-control-lg"/>
-                    <label class="form-label form_texto" for="typeEmailX-2">Email</label>
-                  </div>
-                  <!-- password -->
-                  <div class="form-outline mb-4">
-                    <input type="password" id="typePasswordX-2" class="form-control form-control-lg" />
-                    <label class="form-label form_texto" for="typePasswordX-2">Password</label>
-                  </div>
-                  <!-- boton login -->
-                  <button type="button" class="btn btn-block mb-3 color_boton">Sign in</button>
-                  <!-- linea -->
-                  <hr class="my-4">
-                  <!-- boton registro -->
-                  <div class="text-center">
-                  <p>Not a member? <a class="color_texto" href="#">Register</a></p>
-                  <!-- alternativas -->
-                  <p>or sign up with:</p>
-                  <button type="button" class="btn btn-link btn-floating mx-1 color_texto">
-                    <i class="bi bi-facebook"></i>
-                  </button>  
-                  <button type="button" class="btn btn-link btn-floating mx-1 color_texto">
-                    <i class="bi bi-twitter"></i>
-                  </button>
-                  <button type="button" class="btn btn-link btn-floating mx-1 color_texto">
-                    <i class="bi bi-google"></i>
-                  </button>   
-                </div>
+    <br><br><br><br>
+
+    <!-- menu filtro -->
+    <section class="category__data menu_filtro">
+        <ul class="nav justify-content-center pb-4 boton-filtro">
+            <!-- mas recientes -->
+            <li class="nav-item">
+              <button type="button" class="btn">
+                Mas recientes
+              </button>
+            </li>
+            <!-- peliculas -->
+            <li class="nav-item">
+                <button type="button" class="btn">
+                    Peliculas
+                </button>
+            </li>
+            <!-- series -->
+            <li class="nav-item">
+                <button type="button" class="btn">
+                    Series
+                </button>
+            </li>
+            <!-- cortos -->
+            <li class="nav-item">
+                <button type="button" class="btn">
+                    Cortos
+                </button>
+            </li>
+            <!-- generos -->
+            <li class="nav-item">
+              <div class="dropdown-center">
+                <button type="button" class="btn dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                  Generos
+                </button>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Accion</a></li>
+                  <li><a class="dropdown-item" href="#">Aventuras</a></li>
+                  <li><a class="dropdown-item" href="#">Ciencia Ficción</a></li>
+                  <li><a class="dropdown-item" href="#">Comedia</a></li>
+                  <li><a class="dropdown-item" href="#">Drama</a></li>
+                  <li><a class="dropdown-item" href="#">Fantasia</a></li>
+                </ul>
               </div>
-            </div>
+            </li>
+            <!-- mas vistos -->
+            <li class="nav-item">
+              <button type="button" class="btn">
+                Mas vistos
+              </button>
+            </li>
+        </ul>
+    </section>
+
+    <!-- menu de peliculas -->
+    <section>
+    <!-- galeria de peliculas -->
+    <div class="container text-center pt-5">
+      <div class="row">
+        <!-- pelicula 1 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="filtro category__data">
+            <img class="category__img img-fluid rounded" src="assets/img/cars_1h.jpg" alt="pelicula">            
+            <a href="#">Cars</a>
           </div>
         </div>
-      </section>
-    </main>
+        <!-- pelicula 2 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="filtro category__data">
+            <img class="category__img img-fluid rounded" src="assets/img/cars_2hv2.jpg" alt="pelicula">            
+            <a href="#">Cars 2</a>
+          </div>
+        </div>
+        <!-- pelicula 3 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="filtro category__data">
+            <img class="category__img img-fluid rounded" src="assets/img/cars_3h.jpg" alt="pelicula">            
+            <a href="#">Cars 3</a>
+          </div>
+        </div>
+        <!-- pelicula 4 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="filtro category__data">
+            <img class="category__img img-fluid rounded" src="assets/img/vengadores.jpg" alt="pelicula">            
+            <a href="#">The Avengers</a>
+          </div>
+        </div>
+        <!-- pelicula 5 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="filtro category__data">
+            <img class="category__img img-fluid rounded" src="assets/img/the_lord_of_the_rings.jpg" alt="pelicula">            
+            <a href="#">The Lord of the Rings</a>
+          </div>
+        </div>
+        <!-- pelicula 6 -->
+        <div class="col-12 col-md-6 col-lg-4">
+          <div class="filtro category__data">
+            <img class="category__img img-fluid rounded" src="assets/img/batman_the_dark_night.jpg" alt="pelicula">            
+            <a href="#">The Dark Night</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    </section>
 
-    <!--Pie de pagina-->
+    <!-- paginacion -->
+    <nav class="navigation">
+        <ul class="pagination justify-content-center pt-5">
+          <!-- boton anterior-->
+          <li class="page-item">
+            <a class="page-link" href="#">&lt;</a>
+          </li>
+          <!-- paginas -->
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">4</a></li>
+          <li class="page-item"><a class="page-link" href="#">5</a></li>
+          <!-- boton siquiente-->
+          <li class="page-item">
+            <a class="page-link" href="#">&gt;</a>
+          </li>
+        </ul>
+    </nav>
+
+    <!--pie de pagina-->
     <footer class="footer section">
       <div class="footer__container container grid">
         <div class="footer__content">
