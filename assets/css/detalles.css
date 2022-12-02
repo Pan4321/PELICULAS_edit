@@ -42,8 +42,9 @@
     margin-top: 20px;
 }
 
+/* letra */
 .boton-filtro button {
-    color: hsl(9, 92%, 54%);
+    color: white;
 }
 
 
