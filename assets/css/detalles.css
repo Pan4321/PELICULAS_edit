@@ -1,3 +1,79 @@
+/* LOGIN  **********/
+
+/* icono ojo */
 .ver_pelicula i {
+    color: white;
+  }
+
+/* LOGIN  **********/
+
+/* formulario color fondo */
+.main .color_login {
+    background-color: hsl(120, 1%, 15%);
+    border-radius: 1rem;
+}
+
+/* formulario tamaño letra */
+.main .form_texto {
+    padding-top: 20px;
+}
+
+/* formulario color boton */
+.main .color_boton {
+    background-color: hsl(9, 92%, 54%);
+    color: white;
+}
+
+/* formulario color texto */
+.main .color_texto {
+    color: hsl(9, 92%, 54%);
+}
+
+/* FILTROS **********/
+
+/* menu filtro *****/
+
+/* fondo */
+.menu_filtro {
+    background-color: hsl(120, 1%, 15%);
+}
+
+.boton-filtro .nav-item {
+    margin-top: 20px;
+}
+
+.boton-filtro button {
+    color: hsl(9, 92%, 54%);
+}
+
+
+/* galeria *****/
+
+/* imgane */
+.filtro img {
+    width: 200px;
+}
+
+/* texto */
+.filtro a {
+    display: block;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 15px;
+    padding-bottom: 15px;
+}
+
+/* boton */
+.boton-filtro > li {
+    padding-left: 50px;
+}
+
+/* paginacion *****/
+
+/* listado numeros */
+.navigation a {
+    border: 0px;
+    background-color: hsl(120, 1%, 15%);
     color: white;
 }
