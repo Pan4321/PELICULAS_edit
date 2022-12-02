@@ -78,3 +78,20 @@
     background-color: hsl(120, 1%, 15%);
     color: white;
 }
+
+/* LISTAS **********/
+
+/* tabla */
+section .table {
+    padding-top: 10px;
+}
+
+/* tabla imagen */
+.lista_imagen {
+    width: 100px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+}
+
+/* USUARIO **********/
